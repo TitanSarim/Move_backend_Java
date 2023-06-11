@@ -13,10 +13,4 @@ public class JavaMoviesBackendApplication {
 		SpringApplication.run(JavaMoviesBackendApplication.class, args);
 
 	}
-
-	@GetMapping("/root")
-	public String apiRoot(){
-		return "Hellow sarim";
-	}
-
 }
